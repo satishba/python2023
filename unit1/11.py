@@ -22,5 +22,8 @@ if tempratureFarenheit > 96:
     print(f" Too hot");
 elif tempratureFarenheit > 86 :
     print("warm")
+    
 else :
     print("cold")
+
+print("end of program")

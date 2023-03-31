@@ -4,6 +4,8 @@
 Created on Sat Mar 25 09:21:38 2023
 
 @author: satish
+Write a program to take a number as input from user and print the number
+ and its datatype. 
 """
 
 var=input("Enter a number")

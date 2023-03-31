@@ -12,5 +12,7 @@ input and print "Incorrect" if it is not equal to 12.5 .
 var1=float(input("Enter a number"))
 
 
-if var1 == 12.5:
-    print(f"The number var1 is equal to 12.5");
+if var1 != 12.5:
+    print(f"The number var1 is not equal to 12.5");
+
+print("not part of if")

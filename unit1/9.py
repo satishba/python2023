@@ -18,3 +18,6 @@ if var1 > var2:
     print(f" var1 {var1} is greater then var2 {var2}");
 else:
     print(f" var2 {var2} is greater then var1 {var1}")
+    
+    
+    
