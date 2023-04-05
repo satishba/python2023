@@ -4,6 +4,19 @@
 Created on Mon Apr  3 07:53:20 2023
 
 @author: satish
+
+Write a program to take ask for set a password 
+first , the password should not be hardcoded in 
+the program.  Once set, ask user to enter the
+ password allowing only 3 wrong attempts.
+ After 3 wrong attempts it should display 
+ the message "Account Locked".
+ After every wrong attempt display
+ "You have made " " wrong attempts, and are left 
+ with " " more attempts. 
+ If Password is entered correctly display
+ the messag "Correct password". 
+ 
 """
 
 password =input("Set the password ")
