@@ -13,3 +13,4 @@ while True:
     if choice == "no":
         break
     print("hello")
+print("out of loop")
