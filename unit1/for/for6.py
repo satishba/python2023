@@ -8,3 +8,9 @@ Write a program to take a range as input from user
 and print all the numbers divisble by 3 in that range. 
 """
 
+startingNumber = int(input("Enter the starting number "))
+endingNumber = int(input("Enter the ending number "))
+
+for i in range(startingNumber,endingNumber):
+    if(i % 3 ==0):
+        print(i)
