@@ -7,6 +7,7 @@ Created on Sun May  7 00:51:45 2023
 """
 
 class account:
+    bankName = "SBI"
     def __init__(self,name,balance=0):
         self.name=name
         self.balance=balance
@@ -23,6 +24,9 @@ def updateBalance(acc):
     
 acc1 = account("abc")
 acc2 = account("xyz",200)
+
+print(acc1.showBalance())
+print(acc2.showBalance())
 
 updateBalance(acc1)
     
