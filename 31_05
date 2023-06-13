@@ -1,0 +1,15 @@
+Write a program to print all the numbers greater than 10 in the given list. 
+
+Write a program to create a list of 4 strings, strings entered by the user. 
+
+Write a program to print the first charachter of all the strings in a given list of strings. 
+
+Write a program to create a list of 10 fibonacci numbers, create the fibonacci numbers in a function. 
+
+Write a program to check if a list of strings has any string with a " " in it. If it has, replace the space with an "_". 
+
+Write a program to implement a stack with the help of a list. Add the following features 
+-> Limit the stack size 
+-> Do no allow pop operation on an Empty stack 
+-> After each push or pop print how many empty slots are available. 
+-> Have function to pop multiple elements from the stack. 

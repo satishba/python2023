@@ -1,0 +1,90 @@
+
+
+1. Write a program to print all the lines in a file that have even number of characthers.
+
+file_Handle = open("auth.log","r")
+for line in file_Handle:
+    if(len(line)%2==0):
+        print(line)
+file_Handle.close()
+
+
+
+
+2. Write a program to print all the lines ina file prefixed with line numbers. 
+
+file_Handle = open("auth.log","r")
+i=1
+for line in file_Handle:
+    print(f"{i}. {line}")
+    i=i+1
+file_Handle.close()
+
+
+
+
+
+
+
+3. Modify the above program to write the lines with line numbers to a new file. 
+file_Handle1= open("auth.log","r")
+file_Handle2=open("Newtextdoc.txt","w")
+i=1
+for line in file_Handle1:
+    file_Handle2.write(f"{i}. {line}")
+    i=i+1
+file_Handle2.close()
+file_Handle1.close()
+
+
+
+4. Write a program to print all the lines in a file that have the word "The" in it. 
+file_Handle = open("auth.log","r")
+for line in file_Handle:
+    if "The" in line:
+        print(line)
+file_Handle.close()
+
+
+
+5. Write a program to search for user given string in a file, and print line and line number that has the string. 
+
+np = input("Enter a string: ")
+file_Handle = open("Newtextdoc.txt","r")
+i=1
+for line in file_Handle:
+    if(inp in line):
+        print(f"{line}")
+    i=i+1
+    
+        
+file_Handle.close()
+
+6. Write a program to print a specfic line number as requested by the user. 
+7. Write a program to print a range of lines with line number  requested by the user. 
+8. Write a program to take file name as input to which data has to be written, and take data also as input from the user. Write the data to new file. 
+
+
+Write a program to take a file name as input from the user. 
+Take a number as input from the user . 
+Create a dictionary which will have all the lines from the file that have number of charachters greater then the given nummber 
+with key as the line number and the value as the line. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
